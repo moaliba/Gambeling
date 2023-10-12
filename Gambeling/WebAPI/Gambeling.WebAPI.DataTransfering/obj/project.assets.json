@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Assesments\\Gambeling\\Gambeling\\BussinessLogic\\Gambeling.DomainModels\\Gambeling.DomainModels.csproj",
-      "projectName": "Gambeling.DomainModels",
-      "projectPath": "D:\\Assesments\\Gambeling\\Gambeling\\BussinessLogic\\Gambeling.DomainModels\\Gambeling.DomainModels.csproj",
+      "projectUniqueName": "D:\\Assesments\\Gambeling\\Gambeling\\WebAPI\\Gambeling.WebAPI.DataTransfering\\Gambeling.WebAPI.DataTransfering.csproj",
+      "projectName": "Gambeling.WebAPI.DataTransfering",
+      "projectPath": "D:\\Assesments\\Gambeling\\Gambeling\\WebAPI\\Gambeling.WebAPI.DataTransfering\\Gambeling.WebAPI.DataTransfering.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Assesments\\Gambeling\\Gambeling\\BussinessLogic\\Gambeling.DomainModels\\obj\\",
+      "outputPath": "D:\\Assesments\\Gambeling\\Gambeling\\WebAPI\\Gambeling.WebAPI.DataTransfering\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
