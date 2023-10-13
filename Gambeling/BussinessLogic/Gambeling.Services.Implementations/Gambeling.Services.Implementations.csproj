@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Gambeling.DomainModels\Gambeling.DomainModels.csproj" />
+    <ProjectReference Include="..\Gambeling.Persistence.Services\Gambeling.Persistence.Services.csproj" />
+    <ProjectReference Include="..\Gambeling.Services\Gambeling.Services.csproj" />
+  </ItemGroup>
+
 </Project>

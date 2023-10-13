@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Gambeling.Persistence.Implementations\Gambeling.Persistence.Implementations.csproj" />
+  </ItemGroup>
+
 </Project>
