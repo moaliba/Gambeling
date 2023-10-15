@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Gambeling.DomainModels\Gambeling.DomainModels.csproj" />
     <ProjectReference Include="..\Gambeling.Persistence.Services\Gambeling.Persistence.Services.csproj" />
     <ProjectReference Include="..\Gambeling.Services\Gambeling.Services.csproj" />

@@ -67,3 +67,10 @@
 /Gambeling/.vs/Gambeling/v17/.futdcache.v2
 /Gambeling/.vs/ProjectEvaluation/gambeling.metadata.v6.1
 /Gambeling/.vs/ProjectEvaluation/gambeling.projects.v6.1
+/Gambeling/WebAPI/Gambeling.WebAPI/obj/Debug/net6.0/Gambeling.WebAPI.assets.cache
+/Gambeling/WebAPI/Gambeling.WebAPI/obj/Debug/net6.0/Gambeling.WebAPI.csproj.AssemblyReference.cache
+*.BuildWithSkipAnalyzers
+/Gambeling/WebAPI/Gambeling.WebAPI/obj/Gambeling.WebAPI.csproj.nuget.dgspec.json
+/Gambeling/WebAPI/Gambeling.WebAPI/obj/Gambeling.WebAPI.csproj.nuget.g.props
+/Gambeling/WebAPI/Gambeling.WebAPI/obj/project.assets.json
+/Gambeling/WebAPI/Gambeling.WebAPI/obj/project.nuget.cache
