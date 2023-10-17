@@ -74,3 +74,13 @@
 /Gambeling/WebAPI/Gambeling.WebAPI/obj/Gambeling.WebAPI.csproj.nuget.g.props
 /Gambeling/WebAPI/Gambeling.WebAPI/obj/project.assets.json
 /Gambeling/WebAPI/Gambeling.WebAPI/obj/project.nuget.cache
+*.testlog
+*.manifest
+*.json
+/Gambeling/WebAPI/WebAPI.Tests/obj/Debug/net6.0/WebAPI.Tests.assets.cache
+/Gambeling/WebAPI/WebAPI.Tests/obj/Debug/net6.0/WebAPI.Tests.csproj.AssemblyReference.cache
+/Gambeling/WebAPI/WebAPI.Tests/obj/project.assets.json
+/Gambeling/WebAPI/WebAPI.Tests/obj/project.nuget.cache
+/Gambeling/WebAPI/WebAPI.Tests/obj/WebAPI.Tests.csproj.nuget.dgspec.json
+/Gambeling/WebAPI/WebAPI.Tests/obj/WebAPI.Tests.csproj.nuget.g.props
+/Gambeling/WebAPI/WebAPI.Tests/obj/WebAPI.Tests.csproj.nuget.g.targets

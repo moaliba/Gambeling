@@ -9,15 +9,17 @@ namespace Gambeling.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Produces("application/json")]
     public class UsersController : ControllerBase
     {
         [HttpPost]
         public async Task<ActionResult> Post(
-            [FromQuery] UserDto userDto,
+            [FromBody] UserDto userDto,
             [FromServices] IQueryHandler<GetTokenByCredentialQuery, string> queryHandler)
         {
             if (userDto == null)
                 throw new ArgumentNullException(nameof(userDto));
+
             string token = await queryHandler.HandelAsync(
                 GetTokenByCredentialQuery.Create(userDto.UserName, userDto.Password));
             return Ok(JsonConvert.SerializeObject(new TokenViewModel { Token = token }));
