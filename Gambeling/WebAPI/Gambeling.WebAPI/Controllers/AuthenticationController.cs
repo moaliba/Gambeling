@@ -10,10 +10,10 @@ namespace Gambeling.WebAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Produces("application/json")]
-    public class UsersController : ControllerBase
+    public class AuthenticationController : ControllerBase
     {
-        [HttpPost]
-        public async Task<ActionResult> Post(
+        [HttpPost("GetToken")]
+        public async Task<ActionResult> GetToken(
             [FromBody] UserDto userDto,
             [FromServices] IQueryHandler<GetTokenByCredentialQuery, string> queryHandler)
         {

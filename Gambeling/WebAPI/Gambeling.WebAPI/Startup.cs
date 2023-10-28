@@ -2,7 +2,7 @@
 using Gambeling.DomainModels.Participants;
 using Gambeling.Persistence.Implementations.Context;
 using Gambeling.Persistence.Implementations.Participants;
-using Gambeling.Persistence.Implementations.Useers;
+using Gambeling.Persistence.Implementations.Users;
 using Gambeling.Persistence.Services.Participants;
 using Gambeling.Persistence.Services.Users;
 using Gambeling.Services.Implementations.BetRequests.Commands;
@@ -51,7 +51,7 @@ public class Startup
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public virtual void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    public virtual void Configure(IApplicationBuilder app, IWebHostEnvironment env, GambelingDbContext context)
     {
         if (env.IsDevelopment())
         {
@@ -59,6 +59,8 @@ public class Startup
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Gambeling.WebAPI"));
         }
+        context.Database.EnsureDeleted();
+        context.Database.EnsureCreated();
 
         app.UseHttpsRedirection();
 

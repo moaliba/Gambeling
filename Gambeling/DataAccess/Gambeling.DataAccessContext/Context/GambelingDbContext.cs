@@ -27,6 +27,7 @@ public class GambelingDbContext : DbContext, IGambelingDbContext
         builder.ApplyConfiguration(new ParticipantMapping());
         builder.ApplyConfiguration(new BetRequestMapping());
         builder.ApplyConfiguration(new UserMapping());
+        builder.Entity<User>().HasData(User.Create("UserName", "password", "UserName@Password.com"));
     }
 
     public async Task<int> SaveChange()
